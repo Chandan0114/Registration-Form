@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Registeration Form</h2>
+        </div>
+        <form class="form">
+            <div class="form-control">
+                <lable for="username" name="username">User Name</lable>
+                <input id="txtUserName" type="text" name="username" autocomplete="off" />
+                <small>Error Message</small>
+                <span><i class="fas fa-user"></i></span>
+            </div>
+            <div class="form-control">
+                <lable for="email" name="email">Email</lable>
+                <input id="txtEmail" type="email" name="email" />
+                <small>Error Message</small>
+                <span><i class="fas fa-envelope"></i></span>
+            </div>
+            <div class="form-control">
+                <lable for="pwd" name="pwd">Password</lable>
+                <input id="txtPwd" type="password" name="pwd" />
+                <small>Error Message</small>
+                <span><i class="fas fa-lock"></i></span>
+            </div>
+            <div class="form-control">
+                <lable for="conpwd" name="conpwd">Confirm Password</lable>
+                <input id="txtConPwd" type="password" name="conpwd" />
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <lable for="contact1" name="contact1">Contact</lable>
+                <input id="txtContact" type="contact" name="contact1" />
+                <small>Error Message</small>
+                <span><i class="fas fa-phone-alt"></i></span>
+            </div>
+
+            <div class="form-control">
+                <button>Submit</button>
+                <button>Reset</button>
+
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
